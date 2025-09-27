@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: config-server
-  profiles:
-    active: dev
-
-# Encryption key for sensitive data
-encrypt:
-  key: ${CONFIG_SERVER_ENCRYPT_KEY:odc-config-encrypt-key-2024}
